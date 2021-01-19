@@ -1,0 +1,14 @@
+New features added until 2017-08-28
+
+1. A prefab of Torch, with two types of fires, sparks, and smoke - all managed by a script.
+2. A prefab of 8 torches fixed to the walls - for an easy creation of an alternative illumination by torches.
+3. Changes in LabirinthCreator for adding Box Colliders to Slides having both Text and Background Image different than the default one (marble-black.jpg - set in the scripts).
+4. A sript (SlideTextOnOff.cs) for showing the lext of slides having both Text and Background Image different than the default one (marble-black.jpg - set in the scripts).
+5. New sounds added to the Global Game Manager (by additional Audio Source components) in order to be played out at specific events:
+	- AudioSource[0]="applause7.wav" - played at game and
+	- AudioSource[1]="Creaking Door Spooky-SoundBible.com-1909842345.mp3" - played at opening/closing a door
+	- AudioSource[2]="Coin_Drop-Willem_Hunt-569197907.wav" - played at clicking on a hidden object (finding a hidden object)
+	- AudioSource[3]="Pling-KevanGC-1485374730.wav" - played at entering a wrong answer for unlocking a door
+	- AudioSource[4]="fanfare_x.wav" - played at entering a wright answer unlocking a door
+	- AudioSource[5]="No_mercy-Hipis-1227409429.wav" - played at at solving a task with a ball (ball set to its ring or circle)
+6. Added code in the scripts for playing the audio from (5).

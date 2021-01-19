@@ -1,0 +1,157 @@
+ <Labyrinth>
+ 	<Rooms>
+ 		<Room>
+ 			<Name>Room_Center</Name>
+
+ 			<DoorN>
+                            <Room>RoomNorth</Room>
+                            <Question>
+                                 <Text> Question text </Text>
+                                 <Answer>a</Answer>
+                                 <Image>File_name.png</Image>
+                            </Question>
+                        </DoorN>
+
+                        <DoorS>
+                            <Room>RoomSouth</Room>
+                            <Question>
+                                 <Text> Question text </Text>
+                                 <Answer>a</Answer>
+                                 <Image>File_name.png</Image>
+                            </Question>
+                        </DoorS>
+
+                        <DoorE>
+                            <Room>RoomEast</Room>
+                            <Question>
+                                 <Text> Question text </Text>
+                                 <Answer>a</Answer>
+                                 <Image>File_name.png</Image>
+                            </Question>
+                        </DoorE>
+
+                        <DoorW>
+                            <Room>RoomWest</Room>
+                            <Question>
+                                 <Text> Question text </Text>
+                                 <Answer>a</Answer>
+                                 <Image>File_name.png</Image>
+                            </Question>
+                        </DoorW>
+
+                        <SlideN_1>
+                            <Text>Slide text N 1</Text>
+                            <Image>File_name.png</Image>
+                        </SlideN_1>
+
+                        <SlideN_2>
+                            <Text>Slide text N 2</Text>
+                            <Image>File_name.png</Image>
+                        </SlideN_2>
+
+                        <SlideS_1>
+                            <Text>Slide text S 1</Text>
+                            <Image>File_name.png</Image>
+                        </SlideS_1>
+
+                        <SlideS_2>
+                            <Text>Slide text S 2</Text>
+                            <Image>File_name.png</Image>
+                        </SlideS_2>
+
+                        <SlideE_1>
+                            <Text>Slide text E 1</Text>
+                            <Image>File_name.png</Image>
+                        </SlideE_1>
+
+
+                        <SlideW_2>
+                            <Text>Slide text W 2</Text>
+                            <Image>File_name.png</Image>
+                        </SlideW_2>
+
+                        <SlideW_1>
+                            <Text>Slide text W 1</Text>
+                            <Image>File_name.png</Image>
+                        </SlideW_1>
+
+
+                        <SlideW_2>
+                            <Text>Slide text W 2</Text>
+                            <Image>File_name.png</Image>
+                        </SlideW_2>
+
+                        <StartingRoom>true</StartingRoom>
+
+                        <WallTexture>File_name.png</WallTexture>
+
+                        <Map>File_name.png</Map>
+
+                        <AudioClip>
+                            <Loop>true</Loop>
+                            <File>File_name.wav</File>
+                        </AudioClip>
+
+                        <HiddenObjects>
+                           <HiddenObject>
+                              <Texture>File_name.png</Texture>
+                              <Points>0</Points>
+                           </HiddenObject>
+                           <HiddenObject>
+                              <Texture>File_name.png</Texture>
+                              <Points>0</Points>
+                           </HiddenObject>
+                        </HiddenObjects>
+
+                        <Game>
+                          <GameElements>
+                           <GameElement>
+                              <Text>Ball Text</Text>
+                              <Image>File_name.png</Image>
+                              <Name>Ball1</Name>
+                              <Type>Ball</Type>
+                              <Texture>File_name.png</Texture>
+                           </GameElement>
+                           <GameElement>
+                              <Text>Cicle Text</Text>
+                              <Image>File_name.png</Image>
+                              <Type>Circle</Type>
+                              <Texture>File_name.png</Texture>
+                              <Ball>Ball1</Ball>
+                           </GameElement>
+                           <GameElement>
+                              <Text>Ring Text</Text>
+                              <Image>File_name.png</Image>
+                              <Type>Ring</Type>
+                              <Texture>File_name.png</Texture>
+                              <Ball>Ball2</Ball>
+                           </GameElement>
+                           <GameElement>
+                              <Text>Ball 2 Text</Text>
+                              <Image>File_name.png</Image>
+                              <Name>Ball2</Name>
+                              <Type>Ball</Type>
+                              <Texture>File_name.png</Texture>
+                           </GameElement>
+                          </GameElements>
+                        </Game>
+ 		</Room>
+
+ 		<Room>
+ 			<Name>RoomNorth</Name>
+ 		</Room>
+
+ 		<Room>
+ 			<Name>RoomSouth</Name>
+ 		</Room>
+
+ 		<Room>
+ 			<Name>RoomEast</Name>
+ 		</Room>
+
+ 		<Room>
+ 			<Name>RoomWest</Name>
+ 		</Room>
+
+ 	</Rooms>
+ </Labyrinth>

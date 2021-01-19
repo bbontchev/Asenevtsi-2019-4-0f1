@@ -1,0 +1,19 @@
+enterAnswer____::Enter the answer to the question.
+lastAnswer_____::Last answer: 
+rightAnswer____:: - OK
+wrongAnswer____:: - Wrong
+correctAnswer__::Correct answer!
+tryAgain_______::Wrong answer, try again!
+solvePuzzle____::Solve the game puzzle to unlock the question.
+clickToOpen1___::Click to 
+clickToOpen2___::open/close
+clickToOpen3___::the door
+points_________::Points: 
+found__________::Found  
+from___________:: from 
+hiddenObjects__:: hidden objects.
+clickBall1_____::Click to select the ball.
+clickBall2_____::Use the arrow keys to move it around and find the matching target.
+clickBall3_____::Press Esc to regain control.
+youNeed2Collect::You need to collect at least 
+points2Unlock__:: points to unlock this puzzle game.
